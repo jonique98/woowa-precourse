@@ -1,10 +1,15 @@
-let problem6 = require("./problem6");
+let problem7 = require("./problem7");
 
-	console.log( problem6([
-        ["jm@email.com", "제이엠"],
-        ["jason@email.com", "제이슨"],
-        ["woniee@email.com", "워니"],
-        ["mj@email.com", "엠제이"],
-        ["nowm@email.com", "이제엠"],
-      ]));
+console.log(problem7(
+    "mrko",
+    [
+      ["donut", "andole"],
+      ["donut", "jun"],
+      ["donut", "mrko"],
+      ["shakevan", "andole"],
+      ["shakevan", "jun"],
+      ["shakevan", "mrko"],
+    ],
+    ["bedi", "bedi", "donut", "bedi", "shakevan"]
+  ));
 
